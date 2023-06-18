@@ -32,6 +32,7 @@ public class StudentRegistrationFormTest {
         String city = "Noida";
 
         registrationFormPage.openPage()
+                .closeAds()
                 .setFirstName(firstName)
                 .setLastName(lastName)
                 .setEmail(email)
